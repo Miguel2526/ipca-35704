@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contactos — Escola de Culinária IPCA</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="/icons/favicon.ico">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/index.html">Escola de Culinária IPCA</a>
+      <nav class="main-nav">
+        <a href="/index.html">Início</a>
+        <a href="/pages/cursos.html">Cursos</a>
+        <a href="/pages/sobre.html">Sobre</a>
+        <a href="/pages/contactos.html">Contactos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h1>Contacte-nos</h1>
+    <form class="contact-form">
+      <label>Nome<input type="text" name="name" required></label>
+      <label>Email<input type="email" name="email" required></label>
+      <label>Mensagem<textarea name="message" required></textarea></label>
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+    <section class="contact-info">
+      <p><strong>Morada:</strong> Av. Exemplo 123, Braga</p>
+      <p><strong>Telefone:</strong> +351 912 345 678</p>
+      <p><strong>Email:</strong> info@ipca.example</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Escola de Culinária IPCA</p>
+    </div>
+  </footer>
+
+  <script>
+    // simples prevenção de envio real (formulário está só para demonstração)
+    document.addEventListener('submit', function(e){
+      if(e.target.classList.contains('contact-form')){
+        e.preventDefault();
+        alert('Obrigado! A sua mensagem foi recebida (simulação).');
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" fill="none">
+<rect width="400" height="300" rx="12" fill="#fff"/>
+<g fill="#d9534f"><circle cx="80" cy="110" r="36"/><rect x="60" y="140" width="40" height="60" rx="8"/></g>
+<g fill="#666"><rect x="140" y="60" width="170" height="20" rx="10"/><rect x="140" y="90" width="170" height="12" rx="6"/></g>
+<text x="200" y="220" font-size="22" text-anchor="middle" fill="#444">Chef (placeholder)</text>
+</svg>
